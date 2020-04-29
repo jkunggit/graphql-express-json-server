@@ -1,6 +1,6 @@
 # GraphQL with Express and json-server
 
-Basic example of using GraphQL with express server.
+Basic example of using GraphQL with express server. GraphGL is useful for filtering the data you want before it is sent to the client. It's like middleware between your client and api request.
 
 ## Technologies
 
@@ -23,7 +23,7 @@ Basic example of using GraphQL with express server.
 
 
 ## GraphQL Screenshot
-![Graphql](/docs/graphql_screenshot.jpg)
+![Graphql](/docs/graphql_screenshot2.jpg)
 
 
 ## GraphQL Example Queries
