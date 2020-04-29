@@ -1,0 +1,49 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "age": 25,
+      "companyId" : "1"
+    },
+    {
+      "id": "2",
+      "name": "Bill Rogers",
+      "email": "bill@gmail.com",
+      "age": 56,
+      "companyId" : "2"
+    },
+    {
+      "id": "3",
+      "name": "Liam Nelson",
+      "email": "liam@gmail.com",
+      "age": 65,
+      "companyId" : "1"
+    },
+    {
+      "id": "4",
+      "name": "Jill Wong",
+      "email": "jill@gmail.com",
+      "age": 34,
+      "companyId" : "3"
+    }
+  ],
+  "companies" : [
+    {
+      "id" : "1",
+      "name" : "Amazon",
+      "description": "Amazon.com, Inc., is an American multinational conglomerate technology company based in Seattle, with 750,000 employees."
+    },
+    {
+      "id" : "2",
+      "name" : "Apple",
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services"
+    },
+    {
+      "id" : "3",
+      "name" : "Google",
+      "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware"
+    }        
+  ]
+}

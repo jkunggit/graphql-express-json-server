@@ -1,0 +1,4 @@
+// we beed to include so we can translate the code to allow us to use code for es2015, 2016, 2017 so we can do such things as using the import instead of require
+{
+  "presets": ["@babel/preset-env"]
+}
