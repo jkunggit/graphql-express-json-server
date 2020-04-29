@@ -23,7 +23,7 @@ Basic example of using GraphQL with express server. GraphGL is useful for filter
 
 
 ## GraphQL Screenshot
-![Graphql](/docs/graphql_screenshot2.jpg)
+![Graphql](/docs/graphql_screenshot1.jpg)
 
 
 ## GraphQL Example Queries
