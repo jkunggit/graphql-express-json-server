@@ -49,7 +49,7 @@ Quickly and easily start a Next.js project.
 }
 ```
 
-### Get all companies with the customer info
+### Get all companies with the customer info.
 ```Query
 {
   companies {
@@ -65,7 +65,7 @@ Quickly and easily start a Next.js project.
 ### Add customer and in {} tells what to return after adding:
 ```Query
 mutation {
-  addCustomer(name: "Jim Kung", email: "jim.kung@gmail.com", age: 42){
+  addCustomer(name: "Jim Kung", email: "jim.kung@gmail.com", age: 42) {
     id,
     name,
     email
@@ -73,7 +73,7 @@ mutation {
 }
 ```
 
-### Delete a customer. the id should be null since it's been delete.
+### Delete a customer. The id should be null since it's been delete.
 ```Query
 mutation {
   deleteCustomer(id: "1"){
