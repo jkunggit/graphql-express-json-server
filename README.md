@@ -1,6 +1,6 @@
 # GraphQL with Express and json-server
 
-Quickly and easily start a Next.js project.
+Basic example of using GraphQL with express server.
 
 ## Technologies
 
@@ -8,6 +8,8 @@ Quickly and easily start a Next.js project.
 - [Express](https://expressjs.com/)
 - [Babel](https://babeljs.io/)
 - [json-server](https://www.npmjs.com/package/json-server)
+- [axios](https://www.npmjs.com/package/axios)
+- [nodemon](https://www.npmjs.com/package/nodemon)
 
 ## Usage
 
@@ -49,7 +51,7 @@ Quickly and easily start a Next.js project.
 }
 ```
 
-### Get all companies with the customer info
+### Get all companies with the customer info.
 ```Query
 {
   companies {
@@ -65,7 +67,7 @@ Quickly and easily start a Next.js project.
 ### Add customer and in {} tells what to return after adding:
 ```Query
 mutation {
-  addCustomer(name: "Jim Kung", email: "jim.kung@gmail.com", age: 42){
+  addCustomer(name: "Jim Kung", email: "jim.kung@gmail.com", age: 42) {
     id,
     name,
     email
@@ -73,7 +75,7 @@ mutation {
 }
 ```
 
-### Delete a customer. the id should be null since it's been delete.
+### Delete a customer. The id should be null since it's been delete.
 ```Query
 mutation {
   deleteCustomer(id: "1"){
