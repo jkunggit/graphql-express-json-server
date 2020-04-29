@@ -20,6 +20,76 @@ Quickly and easily start a Next.js project.
 - open browser to http://localhost:4000 to see json-server page
 
 
+## GraphQL Screenshot
 ![Graphql](/docs/graphql_screenshot.jpg)
-Format: ![Alt Text](url)
+
+
+## GraphQL Example Queries
+
+### Get specific customer:
+```Query
+{
+  customer(id: "1") {
+    name,
+    email,
+    age
+  }
+}
+```
+
+### Get all customers:
+```Query
+{
+  customers {
+    id,
+    name,
+    email,
+    age
+  }
+}
+```
+
+### Get all companies with the customer info
+```Query
+{
+  companies {
+    name,
+    customers {
+      id,
+      name
+    }
+  }
+}
+```
+
+### Add customer and in {} tells what to return after adding:
+```Query
+mutation {
+  addCustomer(name: "Jim Kung", email: "jim.kung@gmail.com", age: 42){
+    id,
+    name,
+    email
+  }
+}
+```
+
+### Delete a customer. the id should be null since it's been delete.
+```Query
+mutation {
+  deleteCustomer(id: "1"){
+    id
+  }
+}
+```
+
+### Update a customer
+```Query
+mutation {
+  editCustomer(id: "2", age: 50, name: "liam"){
+    id,
+    name,
+    age
+  }
+}
+```
 
