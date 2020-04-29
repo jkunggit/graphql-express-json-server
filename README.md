@@ -1,6 +1,6 @@
 # GraphQL with Express and json-server
 
-Quickly and easily start a Next.js project.
+Basic example of using GraphQL with express server.
 
 ## Technologies
 
