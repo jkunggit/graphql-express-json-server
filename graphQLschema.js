@@ -16,7 +16,13 @@ const CustomerType = new GraphQLObjectType({
     id: { type: GraphQLString },
     name: { type: GraphQLString },
     email: { type: GraphQLString },
-    age: { type: GraphQLInt }
+    age: { type: GraphQLInt },
+    company: {
+      type: CompanyType,
+      resolve (parent, args) {
+        return axios.get(`http://localhost:4000/companies/${parent.companyId}`).then(res => res.data)
+      }
+    }
   })
 })
 
@@ -56,13 +62,13 @@ const RootQuery = new GraphQLObjectType({
         id: { type: GraphQLString}
       },
       resolve (root, args) {
-        return axios.get(`http://localhost:4000/companies/${args.id}/?_embed=customers`).then(res => res.data)
+        return axios.get(`http://localhost:4000/companies/${args.id}`).then(res => res.data)
       }
     },
     companies: {
       type: new GraphQLList(CompanyType),
       resolve (root, args) {
-        return axios.get('http://localhost:4000/companies/?_embed=customers').then(res => res.data)
+        return axios.get('http://localhost:4000/companies/').then(res => res.data)
       }
     }
   }

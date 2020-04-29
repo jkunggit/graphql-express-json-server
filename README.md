@@ -42,6 +42,35 @@ It helps to structure data driven applications in a more efficient way than a RE
 }
 ```
 
+### get specific customer with company info:
+```Query
+{
+  customer(id: "1") {
+    id
+    name
+    company {
+      id
+      name
+    }
+  }
+}
+```
+
+### get customers with company info:
+```
+{
+  customers {
+    id
+    name
+    company {
+      name,
+      description
+    }
+  }
+}
+
+```
+
 ### Get all customers:
 ```Query
 {
@@ -54,15 +83,11 @@ It helps to structure data driven applications in a more efficient way than a RE
 }
 ```
 
-### Get all companies with the customer info.
+### Get all companies:
 ```Query
 {
   companies {
-    name,
-    customers {
-      id,
-      name
-    }
+    name
   }
 }
 ```
