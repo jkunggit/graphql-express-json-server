@@ -8,6 +8,8 @@ Quickly and easily start a Next.js project.
 - [Express](https://expressjs.com/)
 - [Babel](https://babeljs.io/)
 - [json-server](https://www.npmjs.com/package/json-server)
+- [axios](https://www.npmjs.com/package/axios)
+- [nodemon](https://www.npmjs.com/package/nodemon)
 
 ## Usage
 
