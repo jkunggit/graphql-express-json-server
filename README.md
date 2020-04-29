@@ -1,12 +1,14 @@
 # GraphQL with Express and json-server
 
-Basic example of using GraphQL with express server. GraphGL is useful for filtering the data you want before it is sent to the client. It's like middleware between your client and api request.
+Basic example of using GraphQL with express server. 
+GraphGL is a query language use to communicate data between client and server. 
+It helps to structure data driven applications in a more efficient way than a REST approach.
 
 ## Technologies
-
-- [React](https://reactjs.org/)
-- [Express](https://expressjs.com/)
-- [Babel](https://babeljs.io/)
+- [Graphql](https://graphql.org)
+- [React](https://reactjs.org)
+- [Express](https://expressjs.com)
+- [Babel](https://babeljs.io)
 - [json-server](https://www.npmjs.com/package/json-server)
 - [axios](https://www.npmjs.com/package/axios)
 - [nodemon](https://www.npmjs.com/package/nodemon)
