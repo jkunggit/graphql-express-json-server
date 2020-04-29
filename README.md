@@ -27,7 +27,7 @@ It helps to structure data driven applications in a more efficient way than a RE
 ![GraphqlFlowChart](/docs/graphql_flow_chart.svg)
 
 ## GraphQL Screenshot
-![GraphqlGui](/docs/graphql_screenshot1.jpg)
+![GraphqlGui](/docs/graphql_screenshot.jpg)
 
 ## GraphQL Example Queries
 
