@@ -24,7 +24,9 @@ It helps to structure data driven applications in a more efficient way than a RE
 - open browser to http://localhost:4000 to see json-server page
 
 ## GraphQL Server - dummy front end to test our queries on the graphql server
-![GraphqlChart](/docs/graphql_flow_chart.jpg)
+![GraphqlChart](/docs/graphql_flow_chart.svg)
+
+## GraphQL Screenshot
 ![GraphqlGui](/docs/graphql_screenshot1.jpg)
 
 ## GraphQL Example Queries
