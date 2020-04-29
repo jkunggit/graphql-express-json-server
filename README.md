@@ -25,7 +25,7 @@ It helps to structure data driven applications in a more efficient way than a RE
 
 
 ## GraphQL Screenshot
-![Graphql](/docs/graphql_screenshot2.jpg)
+![Graphql](/docs/graphql_screenshot1.jpg)
 
 
 ## GraphQL Example Queries
